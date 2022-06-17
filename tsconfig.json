@@ -16,5 +16,5 @@
         "noEmit": true,
         "jsx": "react-jsx"
     },
-    "include": ["src", "src/common/types/fonts.d.ts", "src/**/*"]
+    "include": ["src", "src/common/types/generic.d.ts", "src/**/*"]
 }
