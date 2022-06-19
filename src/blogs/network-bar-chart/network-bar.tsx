@@ -12,6 +12,7 @@ import {
     axisRight,
 } from 'd3'
 import dataset from '../../data/subscription_prices.csv'
+import { ChartWrapper } from '../../common/components/chart-wrapper/chart-wrapper'
 
 type SubscriptionData = {
     Network: string
@@ -151,16 +152,13 @@ export function NetWorkChart(): ReactElement {
         }
     }, [data, barWidth, yAxis, xScale, yScale])
     return data.length ? (
-        <div>
-            <svg width={dimensions.width} height={dimensions.height}>
-                <g
-                    style={{
-                        transform: `translate(${dimensions.margin.left}px, ${dimensions.margin.top}px)`,
-                    }}
-                    ref={ref}
-                />
-            </svg>
-        </div>
+        <ChartWrapper
+            width={dimensions.width}
+            height={dimensions.height}
+            elementRef={ref}
+            top={dimensions.margin.top}
+            left={dimensions.margin.left}
+        />
     ) : (
         <pre>Loading...</pre>
     )
