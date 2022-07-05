@@ -17,6 +17,7 @@
         "camelcase-keys": "^7.0.2",
         "d3": "^7.4.4",
         "framer-motion": "^6.3.3",
+        "lodash-es": "^4.17.21",
         "react": "^18.1.0",
         "react-dom": "^18.1.0",
         "react-scripts": "5.0.1",
@@ -45,6 +46,7 @@
     },
     "devDependencies": {
         "@types/d3": "^7.4.0",
+        "@types/lodash-es": "^4.17.6",
         "@typescript-eslint/eslint-plugin": "^5.26.0",
         "@typescript-eslint/parser": "^5.26.0",
         "eslint": "^8.16.0",

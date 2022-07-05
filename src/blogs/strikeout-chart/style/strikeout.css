@@ -1,0 +1,151 @@
+.container {
+    position: absolute;
+}
+.chart-heading {
+    font-size: 14.5px;
+    font-weight: 700;
+}
+.chart-heading-sub {
+    font-size: 12px;
+}
+.legend {
+    font-size: 12.5px;
+}
+.legend.average {
+    fill: #0f618a;
+}
+.legend.line circle {
+    fill: #0f618a;
+}
+.legend.line line {
+    stroke: #0f618a;
+    stroke-width: 2;
+}
+.grid-lines {
+    stroke: #d6d6d6b3;
+    stroke-dasharray: 2, 2;
+}
+.average-line {
+    stroke: #0f618a;
+    stroke-width: 2;
+    fill: none;
+}
+.team-line {
+    stroke: hsl(39, 90%, 50%);
+    stroke-width: 1.5;
+    stroke-opacity: 0.5;
+    fill: none;
+}
+.team-circles {
+    stroke-width: 1;
+    stroke: #fff;
+    stroke-opacity: 0.5;
+}
+.team-circle.overlay {
+    stroke-width: 1;
+    stroke: #fff;
+    stroke-opacity: 0.5;
+}
+.average-circles {
+    fill: #0f618acc;
+    stroke: #fff;
+    stroke-opacity: 0.5;
+    stroke-width: 1px;
+}
+.tooltip {
+    text-anchor: middle;
+    font-size: 12px;
+    fill: black;
+}
+.tooltip text {
+    pointer-events: none;
+}
+.tooltip-circle {
+    fill: none;
+    stroke: #a2a2a2;
+}
+.axis-x {
+    font-size: 11px;
+}
+.axis-y {
+    font-size: 11.5px;
+    stroke-width: 0;
+}
+.annotation-line {
+    stroke: #dfdfdf;
+}
+.annotation-text {
+    fill: #999;
+    text-anchor: middle;
+    font-size: 11px;
+}
+.annotation-highlight {
+    fill: rgb(149, 149, 149);
+    font-weight: 700;
+}
+.annotation-subtext {
+    font-size: 10px;
+}
+.legend {
+    left: 50px;
+    top: 85px;
+    position: absolute;
+    font-size: 12px;
+}
+.legend .league {
+    color: #0f618acc;
+}
+.legend svg {
+    width: 24px;
+    height: 4px;
+    margin: 3px 14px 3px 0;
+}
+.legend g {
+    transform: translate(2px, 2px);
+}
+.legend .league line {
+    stroke: #0f618a;
+    stroke-width: 2;
+}
+.legend .league circle {
+    fill: #0f618a;
+    stroke: none;
+}
+.legend .league circle {
+    fill: #0f618a;
+    stroke: none;
+}
+.legend .team line {
+    stroke: hsl(39, 90%, 50%);
+    stroke-width: 2;
+}
+.legend .team circle {
+    fill: #f2a20d;
+    stroke: none;
+}
+.legend .team select {
+    outline: solid;
+    color: hsl(39, 80%, 40%);
+    font-size: 12px;
+    padding: 2px;
+    width: 150px;
+}
+.remove-team {
+    background: gainsboro;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding-left: 4px;
+    padding-right: 4px;
+    color: white;
+    font-size: 10px;
+}
+.circles-hightlight {
+    fill: none;
+    stroke: grey;
+}
+.circle-annotation-text {
+    font-size: 23px;
+    font-weight: 900;
+    fill: #0f618a;
+    text-anchor: middle;
+}
